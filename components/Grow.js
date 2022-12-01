@@ -17,22 +17,22 @@ const Grow = () => {
           <Button name={"See All Positions"} />
         </div>
         <div className="w-1/2 text-2xl pt-5 font-semibold text-white flex flex-col items-end">
-          <Link href={"/"} className="inline-flex justify-between gap-x-3 border-b-2 border-neutral-700 py-5 w-full">
+          <Link href={"/"} className="inline-flex justify-between gap-x-3 border-b-2 group border-neutral-700 py-5 w-full">
             Node.js Backend Developer{" "}
             <span>
-              <Image alt="" width={50} src={image}/>
+              <Image alt="" className="group-hover:-translate-y-1 duration-300" width={50} src={image}/>
             </span>
           </Link>
-          <Link href={"/"} className="inline-flex justify-between gap-x-3 border-b-2 border-neutral-700 py-5 w-full">
+          <Link href={"/"} className="inline-flex group justify-between gap-x-3 border-b-2 border-neutral-700 py-5 w-full">
           Flutter Developer{" "}
             <span>
-              <Image alt="" width={50} src={image}/>
+              <Image alt="" className="group-hover:-translate-y-1 duration-300" width={50} src={image}/>
             </span>
           </Link>
-          <Link href={"/"} className="inline-flex justify-between gap-x-3 border-b-2 border-neutral-700 py-5 w-full">
+          <Link href={"/"} className="inline-flex group justify-between gap-x-3 border-b-2 border-neutral-700 py-5 w-full">
           Flutter Developer{" "}
             <span>
-              <Image alt="" width={50} src={image}/>
+              <Image alt="" className="group-hover:-translate-y-1 duration-300" width={50} src={image}/>
             </span>
           </Link>
         </div>
