@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Agile = () => {
   return (
-    <div className="bg-gray-200 relative">
+    <div className="bg-gray-100 relative">
       <div className="max-w-screen-lg mx-auto py-52 flex justify-between">
         <div className="w-1/2">
           <h2 className="leading-normal w-96 text-6xl font-bold">

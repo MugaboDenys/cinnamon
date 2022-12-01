@@ -10,6 +10,7 @@ import Ourservices from "../components/Ourservices";
 import Agile from "../components/Agile";
 import Ping from "../components/Ping";
 import Whoweare from "../components/Whoweare";
+import College from "../components/College";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         <Agile/>
         <Ping/>
         <Whoweare/>
+        <College/>
       </main>
     </div>
   );
