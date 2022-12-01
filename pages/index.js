@@ -12,6 +12,8 @@ import Ping from "../components/Ping";
 import Whoweare from "../components/Whoweare";
 import College from "../components/College";
 import Grow from "../components/Grow";
+import Offices from "../components/offices";
+import Prefooter from "../components/Prefooter";
 
 export default function Home() {
   return (
@@ -56,6 +58,8 @@ export default function Home() {
         <Whoweare/>
         <College/>
         <Grow/>
+        <Offices/>
+        <Prefooter/>
       </main>
     </div>
   );
