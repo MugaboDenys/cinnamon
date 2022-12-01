@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="max-w-screen-lg mx-auto">
         <div className="flex justify-between">
           <div className="w-2/5">
-            <Image alt="" height={20} src={logo} />
+            <Link href={'/'}><Image alt="" height={20} src={logo} /></Link>
             <div className="grid grid-flow-row gap-2 mt-10">
               <Footerlink name={"Home"} />
               <Footerlink name={"Projects"} />

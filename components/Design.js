@@ -6,7 +6,7 @@ const Design = ({bg, image, product, description, paragraph}) => {
   return (
     <div className="bg-white">
       <div className="max-w-screen-lg mx-auto py-20">
-        <div className={`bg-${bg} h-98 w-full transform overflow-clip `}>
+        <div className={`${bg} h-98 w-full transform overflow-clip `}>
           <Link href={"/"}>
             <Image
               className=" hover:scale-110 duration-500"

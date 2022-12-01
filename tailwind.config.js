@@ -17,7 +17,7 @@ module.exports = {
       },
       colors : {
         limegreen : '#91F1C3',
-        orange:{1000 : '#FFCB47'}
+        banana : '#FFCB47'
       },
       height : {
         98 : '30rem'
