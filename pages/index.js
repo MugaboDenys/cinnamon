@@ -11,6 +11,7 @@ import Agile from "../components/Agile";
 import Ping from "../components/Ping";
 import Whoweare from "../components/Whoweare";
 import College from "../components/College";
+import Grow from "../components/Grow";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
         <Ping/>
         <Whoweare/>
         <College/>
+        <Grow/>
       </main>
     </div>
   );
