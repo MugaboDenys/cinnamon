@@ -35,7 +35,7 @@ const Ourservices = () => {
             }
           />
           <Servicecard
-            image={image4}
+            image={image5}
             title={"Marketing & growth"}
             paragraph={
               "By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people."
