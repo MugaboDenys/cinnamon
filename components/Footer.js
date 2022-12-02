@@ -31,7 +31,7 @@ const Footer = () => {
             <h2 className="md:text-3xl text-2xl w-52 md:w-full pt-10 md:pt-0 font-bold text-white">
               All software, zero bullshit.
             </h2>
-            <div className="flex flex-col flex-wrap h-36 gap-2 mt-10">
+            <div className="flex md:hidden flex-col flex-wrap h-36 gap-2 mt-10">
               <Footerlink name={"Home"} />
               <Footerlink name={"Projects"} />
               <Footerlink name={"Services"} />
@@ -68,9 +68,7 @@ const Footer = () => {
                     placeholder="Your E-mail"
                     className="mb-10 px-2 py-2 bg-transparent placeholder-neutral-200 outline-none text-white border-b-2 border-neutral-400"
                   />
-                  <div className="w-full">
-                  <Button name={"Subscribe"} />
-                  </div>
+                  
                 </form>
               </div>
               <div className="mt-10 flex flex-col items-center md:mt-0">
