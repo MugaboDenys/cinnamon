@@ -8,7 +8,7 @@ const Topics = () => {
     <div className="max-w-screen-lg mx-auto px-5 md:px-0 py-32">
       <h2 className="md:text-5xl text-4.5xl font-bold">Stay in the loop </h2>
       <h2 className="md:text-5xl text-4.5xl font-bold md:pt-3">on tech topics </h2>
-      <div className="pt-10 flex md:gap-7 overflow-x-scroll">
+      <div className="pt-10 flex md:gap-7 overflow-x-scroll scroll">
         <Topicscard
           image={cy}
           title={"Quality Assurance"}

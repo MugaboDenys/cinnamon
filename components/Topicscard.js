@@ -9,7 +9,7 @@ const Topicscard = ({ image, title, author, date, time, topic }) => {
         <Image alt="" src={image} className="w-48 md:w-80" />
         <h5 className="text-sm font-bold pt-3">{title}</h5>
         <h4 className="text-neutral-600 pt-3 w-48 md:w-full">
-          <span className="hidden md:block">{author}</span> <span className={dot}>.</span> {date}{" "}
+          <span className="hidden md:inline-block">{author}</span> <span className={dot}>.</span> {date}{" "}
           <span className={dot}>.</span> {time}
         </h4>
         <h3 className="text-2xl font-bold pt-3 w-64 md:w-80">{topic}</h3>

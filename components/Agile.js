@@ -10,7 +10,7 @@ const Agile = () => {
           <h2 className="leading-normal md:w-96 text-4xl md:text-6xl font-bold">
             Agile team on demand
           </h2>
-          <Image className="md:absolute py-10 md:w-96 w-72 -bottom-3 right-0"  src={image24} alt=""/>
+          <Image className="md:absolute py-10 md:py-0 md:w-96 w-72 -bottom-3 right-0"  src={image24} alt=""/>
         </div>
         <div className="space-y-10 md:w-1/2 md:px-16">
           <p className="text-neutral-600 ">

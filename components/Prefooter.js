@@ -5,7 +5,7 @@ import image13 from "../public/image(13).png"
 const Prefooter = () => {
   return (
     <div className="bg-gray-100 md:py-44 py-20 relative">
-      <div className="md:w-2/5 mx-auto flex flex-col items-center">
+      <div className="mx-auto flex flex-col items-center">
         <h2 className="md:text-5xl text-4.5xl px-10 font-bold text-center">
           <span className="hidden md:block">Have a project in mind?</span> Let's work together.
         </h2>

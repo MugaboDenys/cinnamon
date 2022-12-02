@@ -10,7 +10,7 @@ const College = () => {
       <div className="md:w-1/3 mr-20 ">
         <Image alt="" src={image9} />
       </div>
-      <div className="md:w-96 pt-10 md:pt-0">
+      <div className="md:w-96 pt-10 md:pt-0 ">
         <p>
           Seize the unique opportunity to participate in a wide range of courses
           conducted by professionals with an impeccable reputation in the
@@ -19,7 +19,7 @@ const College = () => {
         <div className="mt-10">
           <Button name={"See How It Works"} />
         </div>
-        <Image alt="" src={image26} height={400} className="hidden md:absolute bottom-0 right-0"/>
+        <Image alt="" src={image26} height={400} className="hidden md:block absolute bottom-0 right-0"/>
       </div>
     </div>
     </div>
