@@ -14,6 +14,7 @@ import College from "../components/College";
 import Grow from "../components/Grow";
 import Offices from "../components/offices";
 import Prefooter from "../components/Prefooter";
+import Topics from "../components/Topics";
 
 export default function Home() {
   return (
@@ -59,6 +60,7 @@ export default function Home() {
         <College/>
         <Grow/>
         <Offices/>
+        <Topics/>
         <Prefooter/>
       </main>
     </div>
