@@ -3,13 +3,14 @@ import image8 from "../public/image(8).png";
 import image11 from "../public/image(11).png";
 import image12 from "../public/image(12).png";
 import image23 from "../public/image(23).png";
+import arrowRight from "../public/arrowRight.svg";
 import Link from "next/link";
 
 const Ping = () => {
   return (
-    <div className="max-w-screen-lg mx-auto py-32 flex justify-between">
-      <div className="w-3/4 space-y-10 pr-44">
-        <h2 className="text-4xl leading-normal font-bold">
+    <div className="max-w-screen-lg mx-auto py-32 px-5 md:px-0 md:flex justify-between">
+      <div className="md:w-3/4 space-y-10 md:pr-44">
+        <h2 className="text-3xl md:text-4xl leading-normal font-bold">
           They’re consistent, and the communication is good.
         </h2>
         <p className="text-neutral-700">
@@ -41,9 +42,9 @@ const Ping = () => {
           </Link>
         </div>
       </div>
-      <div className="w-1/4 pt-20 flex flex-col justify-between items-end">
-        <Image alt="" src={image23} height={70} />
-        <Link className=" text-indigo-600 underline underline-offset-2 font-bold uppercase" href={'/'}>  View case study</Link>
+      <div className="md:w-1/4 md:pt-20 pt-10 md:flex flex-col justify-between items-end">
+        <Image alt="" className="hidden md:block" src={image23} height={70} />
+        <Link className="inline-flex items-center gap-x-5 text-indigo-600 underline underline-offset-4 font-bold uppercase" href={'/'}> <span><Image src={arrowRight} alt="arrowright"/></span>  View case study</Link>
       </div>
     </div>
   );

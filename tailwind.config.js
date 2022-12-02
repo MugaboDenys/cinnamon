@@ -23,8 +23,10 @@ module.exports = {
         98 : '30rem'
       },
       fontSize : {
-        xsm : '0.64rem'
+        xsm : '0.64rem',
+        '4.5xl' : '2.50rem'
       }
+
     },
   },
   plugins: [],

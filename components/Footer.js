@@ -9,11 +9,11 @@ import clutch from "../public/clutch.png";
 const Footer = () => {
   return (
     <div className=" bg-noise bg-zinc-900 pt-16 font-Montserrat">
-      <div className="max-w-screen-lg mx-auto">
-        <div className="flex justify-between">
-          <div className="w-2/5">
+      <div className="max-w-screen-lg px-5 md:px-0 mx-auto">
+        <div className="md:flex justify-between">
+          <div className="md:w-2/5">
             <Link href={'/'}><Image alt="" height={20} src={logo} /></Link>
-            <div className="grid grid-flow-row gap-2 mt-10">
+            <div className="hidden md:grid grid-flow-row gap-2 mt-10">
               <Footerlink name={"Home"} />
               <Footerlink name={"Projects"} />
               <Footerlink name={"Services"} />
@@ -21,17 +21,25 @@ const Footer = () => {
               <Footerlink name={"Careers"} />
               <Footerlink name={"Blog"} />
             </div>
-            <div className="mt-52 mb-12">
+            <div className="hidden md:block mt-52 mb-12">
               <Link href={"/"} className="text-neutral-100 text-xs underline">
                 hello@cinnamon.agency
               </Link>
             </div>
           </div>
-          <div className="w-3/5 flex flex-col justify-between">
-            <h2 className="text-3xl font-bold text-white">
+          <div className="md:w-3/5 flex flex-col justify-between">
+            <h2 className="md:text-3xl text-2xl w-52 md:w-full pt-10 md:pt-0 font-bold text-white">
               All software, zero bullshit.
             </h2>
-            <div className="pt-20 mb-20 grid grid-cols-3 gap-5">
+            <div className="flex flex-col flex-wrap h-36 gap-2 mt-10">
+              <Footerlink name={"Home"} />
+              <Footerlink name={"Projects"} />
+              <Footerlink name={"Services"} />
+              <Footerlink name={"About Us"} />
+              <Footerlink name={"Careers"} />
+              <Footerlink name={"Blog"} />
+            </div>
+            <div className="pt-20 mb-20 grid grid-cols-2 md:grid-cols-3  gap-x-5 gap-y-14">
               <div className="text-sm">
                 <h3 className="text-neutral-100 font-bold">Zagreb</h3>
                 <p className="text-neutral-400 text-sm">
@@ -51,7 +59,7 @@ const Footer = () => {
                 </p>
               </div>
             </div>
-            <div className="mt-8 pb-8 flex justify-between">
+            <div className="mt-8 pb-8 md:flex justify-between">
               <div>
                 <h2 className="text-neutral-100 font-bold">Our newsletter</h2>
                 <form action="/" className="">
@@ -60,10 +68,12 @@ const Footer = () => {
                     placeholder="Your E-mail"
                     className="mb-10 px-2 py-2 bg-transparent placeholder-neutral-200 outline-none text-white border-b-2 border-neutral-400"
                   />
+                  <div className="w-full">
                   <Button name={"Subscribe"} />
+                  </div>
                 </form>
               </div>
-              <div>
+              <div className="mt-10 flex flex-col items-center md:mt-0">
                 <Link href={"/"}>
                   <Image alt="" src={pangea} height={50} />
                 </Link>

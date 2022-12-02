@@ -5,10 +5,10 @@ import dev from "../public/dev.webp";
 
 const Topics = () => {
   return (
-    <div className="max-w-screen-lg mx-auto py-32">
-      <h2 className="text-5xl font-bold">Stay in the loop </h2>
-      <h2 className="text-5xl font-bold pt-3">on tech topics </h2>
-      <div className="pt-10 grid grid-cols-3 gap-10">
+    <div className="max-w-screen-lg mx-auto px-5 md:px-0 py-32">
+      <h2 className="md:text-5xl text-4.5xl font-bold">Stay in the loop </h2>
+      <h2 className="md:text-5xl text-4.5xl font-bold md:pt-3">on tech topics </h2>
+      <div className="pt-10 flex md:gap-10 overflow-x-scroll">
         <Topicscard
           image={cy}
           title={"Quality Assurance"}

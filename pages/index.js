@@ -27,7 +27,7 @@ export default function Home() {
       <main>
         <Hero />
         <Design
-          bg={"limegreen"}
+          bg={"bg-limegreen"}
           image = {image25}
           product={"Quality Assurance"}
           description={" Corrily: Optimize prices to maximize revenue"}
@@ -36,7 +36,7 @@ export default function Home() {
           }
         />
         <Design
-          bg={"purple"}
+          bg={"bg-purple"}
           image = {image18}
           product={"web development"}
           description={" Fiona: Engage &Decide"}
@@ -45,7 +45,7 @@ export default function Home() {
           }
         />
         <Design
-          bg={"black"}
+          bg={"bg-banana"}
           image = {image20}
           product={"web development"}
           description={`Ukulele: \n The largest ukulele tabs archive`}

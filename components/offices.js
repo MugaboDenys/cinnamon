@@ -10,9 +10,9 @@ import Image from "next/image";
 
 const Offices = () => {
   return (
-    <div className="pl-72 mx-auto py-32">
-      <h2 className="text-5xl font-bold">Our offices</h2>
-      <div className="pt-10 flex gap-x-5 overflow-x-auto">
+    <div className="md:pl-72 px-5 mx-auto md:py-32 py-20">
+      <h2 className="md:text-5xl text-4.5xl font-bold">Our offices</h2>
+      <div className="md:pt-10 pt-2 flex gap-x-5 overflow-x-scroll">
         <Officescard
           image={image}
           name={"Zagreb"}
@@ -29,7 +29,7 @@ const Offices = () => {
           paragraph={"Požeška 58 11000, Belgrade, Serbia"}
         />
       </div>
-      <div className="flex pt-10 gap-x-10">
+      <div className="hidden md:flex pt-10 gap-x-10">
         <Link
           href={"/"}
           className="transform  duration-300"

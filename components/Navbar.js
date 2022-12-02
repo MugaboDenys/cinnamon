@@ -7,6 +7,8 @@ import play from "../public/play.png";
 import playblue from "../public/playblue.png";
 import Button from "./Button";
 import Navlink from "./Navlink";
+import menudark from "../public/mobile-menu-dark.svg"
+import menulight from "../public/mobile-menu-light.svg"
 
 const Navbar = () => {
 
@@ -17,11 +19,11 @@ const Navbar = () => {
 
   return (
     <div className={`${scroll? 'bg-white' : 'bg-transparent'} fixed z-40 top-0 left-0 right-0`}>
-      <div className="max-w-screen-lg mx-auto   py-5 flex items-center justify-between font-Montserrat">
+      <div className="max-w-screen-lg mx-auto  md:px-0 px-5  py-5 flex items-center justify-between font-Montserrat">
         <Link href={'/'}>
         <Image src={scroll ? logo  : logo1} height={20} alt="" />
         </Link>
-        <div className="flex gap-7 items-center">
+        <div className="hidden md:flex gap-7 items-center">
           <Navlink name={"Products"} color = {scroll ? "black" : "white"}/>
           <Navlink name={"Services"} color = {scroll ? "black" : "white"}/>
           <Navlink name={"About Us"} color = {scroll ? "black" : "white"}/>
@@ -38,6 +40,11 @@ const Navbar = () => {
             </Link>
           </div>
           <Button name={"Contact Us"} />
+        </div>
+        <div className="md:hidden">
+          <Link href={'/'}>
+            <Image alt="" src={scroll ? menudark : menulight}/>
+          </Link>
         </div>
       </div>
     </div>

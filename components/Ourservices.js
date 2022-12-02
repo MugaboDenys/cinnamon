@@ -8,11 +8,11 @@ import Button from "./Button";
 const Ourservices = () => {
   return (
     <div className="bg-noise bg-zinc-900">
-      <div className="max-w-screen-lg mx-auto flex py-48">
-        <div className="w-2/5">
-        <h2 className="text-white text-5xl font-bold">Our Services</h2>
+      <div className="max-w-screen-lg mx-auto md:flex py-24 px-5 md:px-0 md:py-48">
+        <div className="md:w-2/5">
+          <h2 className="text-white text-4xl md:text-5xl font-bold">Our Services</h2>
         </div>
-        <div className="w-3/5 grid grid-cols-2 gap-20">
+        <div className="md:w-3/5 w-72 pt-16 md:pt-0 grid md:grid-cols-2 grid-cols-1 gap-20">
           <Servicecard
             image={image1}
             title={"Product design"}
@@ -41,7 +41,7 @@ const Ourservices = () => {
               "By understanding the mechanics of digital marketing, we make sure to put your product, at the right time, in front of the right people."
             }
           />
-          <Button name={'See Our Services'}/>
+          <Button name={"See Our Services"} />
         </div>
       </div>
     </div>
